@@ -14,7 +14,7 @@ const TopSection = (props: Props) => {
               in ustry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
-            <button className="btn-bg rounded-md p-3 px-5 font-bold text-sm" >Sign up Now</button>
+            <button className="btn-bg rounded-md p-3 px-10 font-bold text-sm" >Sign up Now</button>
           </div>
         </div>
       </div>

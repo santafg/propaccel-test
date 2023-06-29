@@ -5,26 +5,26 @@ type Props = {};
 const AboutSection = (props: Props) => {
   const aboutList: {
     title: string;
-    paragraph: string;
+    description: string;
   }[] = [
     {
       title: "Interactive Features",
-      paragraph:
+      description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     },
     {
       title: "Interactive Features",
-      paragraph:
+      description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     },
     {
       title: "Interactive Features",
-      paragraph:
+      description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     },
     {
       title: "Interactive Features",
-      paragraph:
+      description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     },
   ];
@@ -40,7 +40,7 @@ const AboutSection = (props: Props) => {
                 className="border border-purp rounded-lg shadow p-4 h-fit"
               >
                 <h1 className="text-lg font-bold">{a.title}</h1>
-                <p className="text-xs mt-2">{a.paragraph}</p>
+                <p className="text-xs mt-2">{a.description}</p>
               </div>
             ))}
           </div>
@@ -50,7 +50,7 @@ const AboutSection = (props: Props) => {
               <p className="mt-6 mb-10 text-xs max-w-xs">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno
               </p>
-              <button className="btn-bg rounded-md p-3 px-5 font-bold text-sm text-white">
+              <button className="btn-bg rounded-md p-3 px-10 font-bold text-sm text-white">
               Explore Now
               </button>
             </div>
