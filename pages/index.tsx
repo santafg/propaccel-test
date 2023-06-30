@@ -8,34 +8,23 @@ import TopSection from "@/components/TopSection";
 export default function Home() {
   return (
     <>
-      <div
-        style={{
-          backgroundImage: "url(" + `/images/top-img.png` + ")",
-          backgroundSize: "100% 90%",
-          backgroundRepeat: "no-repeat",
-          height: "100%",
-        }}
-        className="px-4"
-      >
+      <div className="px-4 relative top-img-bg">
         <HomeNavbar />
         <TopSection />
         <div id="about">
           <AboutSection />
         </div>
+        <div className="absolute -z-10 bottom-40 right-0">
+          <img src="/images/mic.png" alt="" />
+        </div>
       </div>
       <div id="pricing">
         <ChoosePlan />
       </div>
-      <ReviewSection />
-      <div
-        style={{
-          backgroundImage: "url(" + `/images/bottom-img.png` + ")",
-          backgroundSize: "100%",
-          backgroundRepeat: "no-repeat",
-          height: "100%",
-        }}
-        className="px-4 pt-6"
-      >
+      <div id="review">
+        <ReviewSection />
+      </div>
+      <div className="px-4 pt-6 bottom-img-bg">
         <LookingFor />
         <Footer />
       </div>

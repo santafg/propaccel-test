@@ -4,7 +4,7 @@ type Props = {};
 
 const SingleReview = (props: Props) => {
   return (
-    <div className="bg-white border border-gray-200 sm:mr-8 my-6 rounded-lg p-6 shadow-lg">
+    <div className="bg-white border border-gray-200 my-4 rounded-lg p-6 shadow-lg">
       <div className="grid grid-cols-12">
         <div className="col-span-3">
           <img src="/images/Lolla.png" className="w-16" alt="" />

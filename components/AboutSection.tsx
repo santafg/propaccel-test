@@ -32,7 +32,7 @@ const AboutSection = (props: Props) => {
   return (
     <>
       <div className="ficc w-full">
-        <div className="w-full max-w-4xl grid grid-cols-2 py-28 justify-between ">
+        <div className="w-full max-w-4xl grid gap-4  sm:grid-cols-2 py-8 sm:py-28 justify-between ">
           <div className="grid grid-cols-2 gap-3 [&>*:nth-child(odd)]:-mt-4 gap-y-8 ">
             {aboutList.map((a, i) => (
               <div
@@ -44,7 +44,7 @@ const AboutSection = (props: Props) => {
               </div>
             ))}
           </div>
-          <div className="flex justify-end items-center ">
+          <div className="flex sm:justify-end items-center ">
             <div className="">
               <h1 className="text-3xl font-extrabold">About the Course</h1>
               <p className="mt-6 mb-10 text-xs max-w-xs">

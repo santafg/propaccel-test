@@ -67,7 +67,7 @@ const ChoosePlan = (props: Props) => {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-4 sm:gap-8 lg:gap-16">
+          <div className="grid sm:grid-cols-3 gap-4 sm:gap-8 lg:gap-16">
             {plans.map((p, i) => (
               <div
                 className={`border border-purp rounded-lg p-4 py-6 ${

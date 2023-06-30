@@ -28,7 +28,7 @@ const Footer = (props: Props) => {
   return (
     <>
       <div className="ficc w-full mt-20">
-        <div className="w-full max-w-4xl  border-t border-white p-5 px-12 grid items-center gap-4 grid-cols-12 text-white text-xs">
+        <div className="w-full max-w-4xl  border-t border-white p-4 sm:p-5 sm:px-12 grid items-center gap-8 lg:gap-4 lg:grid-cols-12 text-white text-xs">
           <div className="col-span-5">
             <p>All Right Reserved @Copyright 2023</p>
           </div>
@@ -39,7 +39,7 @@ const Footer = (props: Props) => {
               <li className="cursor-pointer">Product</li>
             </ul>
           </div>
-          <div className="col-span-3 fic justify-end gap-4">
+          <div className="col-span-3 fic lg:justify-end gap-4">
             {socialLinks.map((sc, i) => (
               <div key={i}>
                 <Link href={sc.link} target="_blank">

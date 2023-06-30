@@ -18,6 +18,36 @@
   background: var(--danger, linear-gradient(90deg, #4776e6 0%, #8e54e9 100%));
 }
 
+.top-img-bg {
+  background-image: url("/images/top-img.png");
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 800px) {
+  .top-img-bg {
+    background-size: 100% 80%;
+  }
+}
+.bottom-img-bg {
+  background-image: url("/images/bottom-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-box {
+  height: 17.2rem !important;
+}
+@media only screen and (max-width: 400px) {
+  .top-box {
+    height: 15.8rem !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .top-box {
+    height: 14.8rem !important;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

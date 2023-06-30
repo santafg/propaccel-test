@@ -9,22 +9,20 @@ const ReviewSection = (props: Props) => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
-    { width: 768, itemsToShow: 2 },
-    { width: 1200, itemsToShow: 2 },
   ];
   return (
     <>
-      <div className="ficc w-full">
+      <div className="ficc w-full ">
         <div className="w-full max-w-4xl py-8">
-          <div>
+          <div className="p-4">
             <h1 className="text-3xl font-bold">Review from customers</h1>
             <p className="text-xs max-w-xs mt-4">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry
             </p>
           </div>
-          <div className="mt-8">
-            <Carousal breakPoints={breakPoints} showArrows={false} className="">
+          <div className="mt-8 lg:-mr-4 lg:-ml-4">
+            <Carousal breakPoints={breakPoints} showArrows={false} itemPadding={[0 ,12]} >
               {Array(12)
                 .fill("")
                 .map((_, i) => (
