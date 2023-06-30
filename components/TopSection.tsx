@@ -6,7 +6,7 @@ const TopSection = (props: Props) => {
   return (
     <>
       <div className="ficc w-full">
-        <div className="w-full max-w-4xl gap-8 lg:gap-4 grid lg:grid-cols-2 py-16 text-white ">
+        <div className="w-full max-w-4xl gap-20 lg:gap-4 grid lg:grid-cols-2 py-16 text-white ">
           <div className="">
             <h1 className="text-3xl font-extrabold tracking-wider">
               Learn how to launch a successful podcast

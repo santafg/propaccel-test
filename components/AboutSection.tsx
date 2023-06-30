@@ -32,7 +32,7 @@ const AboutSection = (props: Props) => {
   return (
     <>
       <div className="ficc w-full">
-        <div className="w-full max-w-4xl grid gap-4  sm:grid-cols-2 py-8 sm:py-28 justify-between ">
+        <div className="w-full max-w-4xl grid gap-12 sm:gap-4  sm:grid-cols-2 py-8 sm:py-28 justify-between ">
           <div className="grid grid-cols-2 gap-3 [&>*:nth-child(odd)]:-mt-4 gap-y-8 ">
             {aboutList.map((a, i) => (
               <div
