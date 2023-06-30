@@ -22,7 +22,7 @@ const ReviewSection = (props: Props) => {
             </p>
           </div>
           <div className="mt-8 lg:-mr-4 lg:-ml-4">
-            <Carousal breakPoints={breakPoints} showArrows={false} itemPadding={[0 ,12]} >
+            <Carousal breakPoints={breakPoints} isRTL={false} showArrows={false} itemPadding={[0 ,12]} >
               {Array(12)
                 .fill("")
                 .map((_, i) => (
