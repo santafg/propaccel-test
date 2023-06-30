@@ -5,9 +5,13 @@ import LookingFor from "@/components/LookingFor";
 import HomeNavbar from "@/components/Navbars/HomeNavbar";
 import ReviewSection from "@/components/ReviewSection/ReviewSection";
 import TopSection from "@/components/TopSection";
+import Head from "next/head";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Prop Accel | Test</title>
+      </Head>
       <div className="px-4 relative top-img-bg">
         <HomeNavbar />
         <TopSection />
